@@ -7,6 +7,4 @@ applications:
   host: CloudNoSQLDB
   disk_quota: 1024M
   services:
-  - CloudNoSQLDB-cloudantNoSQLDB
-  env:
-     ENABLE_BLUEMIX_DEV_MODE: "true"
+  - CloudNoSQLDB-cloudantNoSQLDB 
