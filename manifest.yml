@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 512M
+  memory: 128M
   instances: 1
   domain: mybluemix.net
   name: CloudNoSQLDB
@@ -8,3 +8,5 @@ applications:
   disk_quota: 1024M
   services:
   - CloudNoSQLDB-cloudantNoSQLDB
+  env:
+     ENABLE_BLUEMIX_DEV_MODE: "true"
